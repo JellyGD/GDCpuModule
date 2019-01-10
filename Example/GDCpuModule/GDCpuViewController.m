@@ -7,6 +7,7 @@
 //
 
 #import "GDCpuViewController.h"
+#import <GDCpuModule/CTMediator+CPU.h>
 
 @interface GDCpuViewController ()
 
@@ -17,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+- (IBAction)action:(id)sender {
+    
+    UIViewController *viewController = [[CTMediator sharedInstance] CPU_Viewcontroller];
+    if (viewController) {
+        [self.navigationController pushViewController:viewController animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning

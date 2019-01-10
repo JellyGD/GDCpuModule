@@ -1,0 +1,6 @@
+framework module GDCpuModule {
+  umbrella header "GDCpuModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

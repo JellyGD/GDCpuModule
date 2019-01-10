@@ -1,0 +1,31 @@
+PODS:
+  - CTMediator (25)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GDCpuModule (0.0.1):
+    - CTMediator
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GDCpuModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GDCpuModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GDCpuModule: 9cd353f15e775348ca4f3f6f47d591d87dadbbc7
+
+PODFILE CHECKSUM: deb3849832ab4e189b500e661411c0115076d5f5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_GDCpuModule_Example {
+  umbrella header "Pods-GDCpuModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
