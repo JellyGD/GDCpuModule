@@ -12,6 +12,7 @@
 
 #import "CTMediator+CPU.h"
 #import "GDCPUViewController.h"
+#import "GDCPUMonitor.h"
 #import "Target_CPU.h"
 
 FOUNDATION_EXPORT double GDCpuModuleVersionNumber;
